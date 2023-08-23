@@ -1,10 +1,9 @@
-import React, { useState, useMemo } from "react";
+import React, { useState } from "react";
 import { formatDistance } from "date-fns";
 import IconButton from "./IconButton";
 import {
   FaEdit,
   FaHeart,
-  FaHeartBroken,
   FaReply,
   FaTrash,
 } from "react-icons/fa";

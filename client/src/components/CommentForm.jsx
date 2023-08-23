@@ -1,7 +1,6 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import React, { useState } from "react";
 import { createComment } from "../services/comments";
-import { useUser } from "../hooks/useUser";
 
 const CommentForm = ({postId, autoFocus = false}) => {
   const queryClient = useQueryClient();
